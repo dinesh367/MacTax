@@ -1,0 +1,27 @@
+########## start of admmin urls ##########
+user: /user
+---
+user:
+ login: /login
+ 
+
+########## start of Tax Consultant urls ##########
+tax_consultant: /tax_consultant
+---
+tax_consultant:
+  signup: /signup 
+  
+
+########## start of Tax Payer urls ##########
+tax_payer: /tax_payer
+---
+tax_payer:
+  signup: /signup 
+  
+
+########## start of organization urls ##########
+organization: /organization
+---
+organization:
+  signup: /signup
+  save_service_provider: /save/service_provider 

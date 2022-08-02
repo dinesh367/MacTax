@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: '@activatedProperties@'
+    include:
+    - url
+---      
+
+server:
+  servlet:
+    context-path: /mactax_in
